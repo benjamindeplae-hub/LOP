@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\benja\\OneDrive\\Bureaublad\\vub\\master_ai\\semester_2\\heuristic\\task\\LOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C625355-CFC2-4C8B-A172-0B2C4274F99E}|LOP\\LOP.vcxproj|C:\\Users\\benja\\OneDrive\\Bureaublad\\vub\\master_ai\\semester_2\\heuristic\\task\\LOP\\LOP\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C625355-CFC2-4C8B-A172-0B2C4274F99E}|LOP\\LOP.vcxproj|solutionrelative:LOP\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Bureaublad\\vub\\master_ai\\semester_2\\heuristic\\task\\LOP\\LOP\\main.c",
+              "RelativeDocumentMoniker": "LOP\\main.c",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Bureaublad\\vub\\master_ai\\semester_2\\heuristic\\task\\LOP\\LOP\\main.c",
+              "RelativeToolTip": "LOP\\main.c",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-04-11T08:30:49.368Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

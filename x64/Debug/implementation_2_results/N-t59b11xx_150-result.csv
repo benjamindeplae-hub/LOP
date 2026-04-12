@@ -1,0 +1,3 @@
+algorithm,cost,time_in_seconds,deviation_percentage
+VND_TEI (T->E->I),3134215,1.000000,+3.2515
+VND_TIE (T->I->E),3165230,0.734000,+2.2941

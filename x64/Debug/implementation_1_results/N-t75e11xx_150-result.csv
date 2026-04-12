@@ -1,0 +1,13 @@
+start,neighbourhood,pivot,cost,time_in_seconds,deviation_percentage
+Random,Transpose,First-improvement,26841183,0.000000,+35.4317
+Random,Transpose,Best-improvement,26969136,0.000000,+35.1239
+Random,Exchange,First-improvement,40263882,3.266000,+3.1424
+Random,Exchange,Best-improvement,40126202,0.609000,+3.4736
+Random,Insert,First-improvement,40527132,2.438000,+2.5092
+Random,Insert,Best-improvement,40530365,0.578000,+2.5014
+CW,Transpose,First-improvement,35541961,0.000000,+14.5013
+CW,Transpose,Best-improvement,35602963,0.000000,+14.3546
+CW,Exchange,First-improvement,40475444,2.640000,+2.6335
+CW,Exchange,Best-improvement,40424387,0.578000,+2.7563
+CW,Insert,First-improvement,40778700,1.844000,+1.9040
+CW,Insert,Best-improvement,40612705,0.406000,+2.3033

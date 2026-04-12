@@ -1,0 +1,40 @@
+> source("C:\\Users\\benja\\OneDrive\\Bureaublad\\vub\\master_ai\\semester_2\\heuristic\\task\\LOP\\LOP\\analysis_2.R", echo = FALSE)
+Loaded 156 rows covering 78 instances and 2 algorithms.
+
+=== Average percentage deviation from best known (%) ===
+         algorithm deviation_percentage
+ VND_TIE (T->I->E)             1.725949
+ VND_TEI (T->E->I)             1.765819
+
+=== Standard deviation of percentage deviation per algorithm (%) ===
+         algorithm deviation_percentage
+ VND_TEI (T->E->I)            0.3730398
+ VND_TIE (T->I->E)            0.4100660
+
+=== Standard deviation of computation time per algorithm (seconds) ===
+         algorithm time_in_seconds
+ VND_TIE (T->I->E)        4.248322
+ VND_TEI (T->E->I)        5.796972
+
+=== Total computation time per algorithm (seconds) ===
+         algorithm time_in_seconds
+ VND_TIE (T->I->E)         404.689
+ VND_TEI (T->E->I)         535.561
+
+=== Pairwise Student t-test p-values (paired, two-sided) ===
+                  VND_TEI (T->E->I) VND_TIE (T->I->E)
+VND_TEI (T->E->I)          1.000000          0.413196
+VND_TIE (T->I->E)          0.413196          1.000000
+
+=== Pairwise Wilcoxon signed-rank test p-values (paired, two-sided) ===
+                  VND_TEI (T->E->I) VND_TIE (T->I->E)
+VND_TEI (T->E->I)         1.0000000         0.3880443
+VND_TIE (T->I->E)         0.3880443         1.0000000
+
+(p < 0.05 indicates a statistically significant difference at the 5% level)
+
+=== Pairs with significant difference (Wilcoxon, p < 0.05 ) ===
+  None found at alpha = 0.05 
+
+Boxplot saved to deviation_boxplot_2.pdf
+> 

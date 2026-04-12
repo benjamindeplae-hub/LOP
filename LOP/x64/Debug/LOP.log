@@ -1,0 +1,13 @@
+﻿  algorithms.c
+  cw.c
+  instance.c
+  main.c
+  main_teacher.c
+  main_lop.c
+  main_vnd.c
+  optimization.c
+  timer.c
+  utilities.c
+  vnd.c
+  Generating Code...
+  LOP.vcxproj -> C:\Users\benja\OneDrive\Bureaublad\vub\master_ai\semester_2\heuristic\task\LOP\x64\Debug\LOP.exe

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Implementation_1">
+      <UniqueIdentifier>{d719e6db-9b33-48b4-aed3-806ea0fbaa2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Implementation_1">
+      <UniqueIdentifier>{889de2f4-6642-4715-b685-82aaabaa6352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Implementation_2">
+      <UniqueIdentifier>{21a8c5c9-e938-4ddb-b41d-b134efd631f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Implementation_2">
+      <UniqueIdentifier>{98703440-a403-49c4-84b7-a167e1676f90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="instance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_teacher.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="optimization.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms.c">
+      <Filter>Source Files\Implementation_1</Filter>
+    </ClCompile>
+    <ClCompile Include="cw.c">
+      <Filter>Source Files\Implementation_1</Filter>
+    </ClCompile>
+    <ClCompile Include="main_lop.c">
+      <Filter>Source Files\Implementation_1</Filter>
+    </ClCompile>
+    <ClCompile Include="vnd.c">
+      <Filter>Source Files\Implementation_2</Filter>
+    </ClCompile>
+    <ClCompile Include="main_vnd.c">
+      <Filter>Source Files\Implementation_2</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="instance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="optimization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms.h">
+      <Filter>Header Files\Implementation_1</Filter>
+    </ClInclude>
+    <ClInclude Include="cw.h">
+      <Filter>Header Files\Implementation_1</Filter>
+    </ClInclude>
+    <ClInclude Include="vnd.h">
+      <Filter>Header Files\Implementation_2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

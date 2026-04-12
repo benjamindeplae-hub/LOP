@@ -1,0 +1,450 @@
+> source("C:\\Users\\benja\\OneDrive\\Bureaublad\\vub\\master_ai\\semester_2\\heuristic\\task\\LOP\\LOP\\analysis_1.R", echo = FALSE)
+Loaded 936 rows covering 78 instances and 12 algorithms.
+
+=== Average percentage deviation from best known (%) ===
+                          algorithm deviation_percentage
+        CW_Insert_First-improvement             1.671174
+         CW_Insert_Best-improvement             1.844455
+    Random_Insert_First-improvement             2.018452
+     Random_Insert_Best-improvement             2.299730
+      CW_Exchange_First-improvement             2.388561
+  Random_Exchange_First-improvement             2.825287
+       CW_Exchange_Best-improvement             2.958219
+   Random_Exchange_Best-improvement             3.605110
+      CW_Transpose_Best-improvement            15.711925
+     CW_Transpose_First-improvement            15.839192
+  Random_Transpose_Best-improvement            34.446447
+ Random_Transpose_First-improvement            34.584335
+
+=== Standard deviation of percentage deviation per algorithm (%) ===
+                          algorithm deviation_percentage
+         CW_Insert_Best-improvement            0.3310392
+        CW_Insert_First-improvement            0.3569892
+      CW_Exchange_First-improvement            0.4120964
+       CW_Exchange_Best-improvement            0.4419412
+    Random_Insert_First-improvement            0.4530316
+     Random_Insert_Best-improvement            0.4652188
+  Random_Exchange_First-improvement            0.4769051
+   Random_Exchange_Best-improvement            0.5076704
+     CW_Transpose_First-improvement            1.4144228
+      CW_Transpose_Best-improvement            1.4254379
+ Random_Transpose_First-improvement            3.8184857
+  Random_Transpose_Best-improvement            3.8224412
+
+=== Standard deviation of computation time per algorithm (seconds) ===
+                          algorithm time_in_seconds
+      CW_Transpose_Best-improvement        0.000000
+     CW_Transpose_First-improvement        0.000000
+  Random_Transpose_Best-improvement        0.000000
+ Random_Transpose_First-improvement        0.000000
+         CW_Insert_Best-improvement        1.690980
+       CW_Exchange_Best-improvement        1.741569
+     Random_Insert_Best-improvement        1.862143
+   Random_Exchange_Best-improvement        1.923396
+        CW_Insert_First-improvement        7.474852
+    Random_Insert_First-improvement        9.813615
+      CW_Exchange_First-improvement       10.776490
+  Random_Exchange_First-improvement       13.931812
+
+=== Total computation time per algorithm (seconds) ===
+                          algorithm time_in_seconds
+      CW_Transpose_Best-improvement           0.000
+     CW_Transpose_First-improvement           0.000
+  Random_Transpose_Best-improvement           0.000
+ Random_Transpose_First-improvement           0.000
+         CW_Insert_Best-improvement         168.139
+       CW_Exchange_Best-improvement         170.830
+     Random_Insert_Best-improvement         190.161
+   Random_Exchange_Best-improvement         191.842
+        CW_Insert_First-improvement         699.566
+    Random_Insert_First-improvement         929.640
+      CW_Exchange_First-improvement         993.372
+  Random_Exchange_First-improvement        1274.465
+
+=== Pairwise Student t-test p-values (paired, two-sided) ===
+                                   CW_Exchange_Best-improvement
+CW_Exchange_Best-improvement                       1.000000e+00
+CW_Exchange_First-improvement                      3.919396e-18
+CW_Insert_Best-improvement                         4.274656e-39
+CW_Insert_First-improvement                        2.925942e-32
+CW_Transpose_Best-improvement                      2.343178e-74
+CW_Transpose_First-improvement                     4.492912e-75
+Random_Exchange_Best-improvement                   4.566317e-16
+Random_Exchange_First-improvement                  1.780045e-02
+Random_Insert_Best-improvement                     2.560869e-15
+Random_Insert_First-improvement                    4.287406e-22
+Random_Transpose_Best-improvement                  5.596831e-71
+Random_Transpose_First-improvement                 4.060527e-71
+                                   CW_Exchange_First-improvement
+CW_Exchange_Best-improvement                        3.919396e-18
+CW_Exchange_First-improvement                       1.000000e+00
+CW_Insert_Best-improvement                          4.678139e-21
+CW_Insert_First-improvement                         2.720729e-23
+CW_Transpose_Best-improvement                       1.919860e-77
+CW_Transpose_First-improvement                      5.957933e-78
+Random_Exchange_Best-improvement                    1.893645e-33
+Random_Exchange_First-improvement                   4.793598e-12
+Random_Insert_Best-improvement                      1.731515e-01
+Random_Insert_First-improvement                     1.097653e-07
+Random_Transpose_Best-improvement                   4.055592e-72
+Random_Transpose_First-improvement                  2.998314e-72
+                                   CW_Insert_Best-improvement
+CW_Exchange_Best-improvement                     4.274656e-39
+CW_Exchange_First-improvement                    4.678139e-21
+CW_Insert_Best-improvement                       1.000000e+00
+CW_Insert_First-improvement                      2.072980e-04
+CW_Transpose_Best-improvement                    3.457532e-78
+CW_Transpose_First-improvement                   9.116735e-79
+Random_Exchange_Best-improvement                 3.766752e-45
+Random_Exchange_First-improvement                1.488175e-29
+Random_Insert_Best-improvement                   2.098018e-11
+Random_Insert_First-improvement                  2.717717e-03
+Random_Transpose_Best-improvement                5.614004e-73
+Random_Transpose_First-improvement               3.815477e-73
+                                   CW_Insert_First-improvement
+CW_Exchange_Best-improvement                      2.925942e-32
+CW_Exchange_First-improvement                     2.720729e-23
+CW_Insert_Best-improvement                        2.072980e-04
+CW_Insert_First-improvement                       1.000000e+00
+CW_Transpose_Best-improvement                     4.670507e-80
+CW_Transpose_First-improvement                    1.515716e-80
+Random_Exchange_Best-improvement                  7.537794e-45
+Random_Exchange_First-improvement                 1.160229e-29
+Random_Insert_Best-improvement                    4.578248e-16
+Random_Insert_First-improvement                   6.590928e-08
+Random_Transpose_Best-improvement                 1.173298e-73
+Random_Transpose_First-improvement                8.440516e-74
+                                   CW_Transpose_Best-improvement
+CW_Exchange_Best-improvement                        2.343178e-74
+CW_Exchange_First-improvement                       1.919860e-77
+CW_Insert_Best-improvement                          3.457532e-78
+CW_Insert_First-improvement                         4.670507e-80
+CW_Transpose_Best-improvement                       1.000000e+00
+CW_Transpose_First-improvement                      9.079057e-08
+Random_Exchange_Best-improvement                    9.919792e-73
+Random_Exchange_First-improvement                   2.806496e-74
+Random_Insert_Best-improvement                      1.499193e-75
+Random_Insert_First-improvement                     1.783303e-76
+Random_Transpose_Best-improvement                   4.784579e-58
+Random_Transpose_First-improvement                  2.680480e-58
+                                   CW_Transpose_First-improvement
+CW_Exchange_Best-improvement                         4.492912e-75
+CW_Exchange_First-improvement                        5.957933e-78
+CW_Insert_Best-improvement                           9.116735e-79
+CW_Insert_First-improvement                          1.515716e-80
+CW_Transpose_Best-improvement                        9.079057e-08
+CW_Transpose_First-improvement                       1.000000e+00
+Random_Exchange_Best-improvement                     3.726852e-73
+Random_Exchange_First-improvement                    9.381247e-75
+Random_Insert_Best-improvement                       3.588964e-76
+Random_Insert_First-improvement                      1.557933e-76
+Random_Transpose_Best-improvement                    7.492065e-58
+Random_Transpose_First-improvement                   4.259890e-58
+                                   Random_Exchange_Best-improvement
+CW_Exchange_Best-improvement                           4.566317e-16
+CW_Exchange_First-improvement                          1.893645e-33
+CW_Insert_Best-improvement                             3.766752e-45
+CW_Insert_First-improvement                            7.537794e-45
+CW_Transpose_Best-improvement                          9.919792e-73
+CW_Transpose_First-improvement                         3.726852e-73
+Random_Exchange_Best-improvement                       1.000000e+00
+Random_Exchange_First-improvement                      1.792348e-21
+Random_Insert_Best-improvement                         9.803703e-33
+Random_Insert_First-improvement                        1.084646e-39
+Random_Transpose_Best-improvement                      4.053733e-70
+Random_Transpose_First-improvement                     2.616406e-70
+                                   Random_Exchange_First-improvement
+CW_Exchange_Best-improvement                            1.780045e-02
+CW_Exchange_First-improvement                           4.793598e-12
+CW_Insert_Best-improvement                              1.488175e-29
+CW_Insert_First-improvement                             1.160229e-29
+CW_Transpose_Best-improvement                           2.806496e-74
+CW_Transpose_First-improvement                          9.381247e-75
+Random_Exchange_Best-improvement                        1.792348e-21
+Random_Exchange_First-improvement                       1.000000e+00
+Random_Insert_Best-improvement                          4.993775e-11
+Random_Insert_First-improvement                         3.835300e-19
+Random_Transpose_Best-improvement                       2.388363e-71
+Random_Transpose_First-improvement                      1.601402e-71
+                                   Random_Insert_Best-improvement
+CW_Exchange_Best-improvement                         2.560869e-15
+CW_Exchange_First-improvement                        1.731515e-01
+CW_Insert_Best-improvement                           2.098018e-11
+CW_Insert_First-improvement                          4.578248e-16
+CW_Transpose_Best-improvement                        1.499193e-75
+CW_Transpose_First-improvement                       3.588964e-76
+Random_Exchange_Best-improvement                     9.803703e-33
+Random_Exchange_First-improvement                    4.993775e-11
+Random_Insert_Best-improvement                       1.000000e+00
+Random_Insert_First-improvement                      3.272675e-05
+Random_Transpose_Best-improvement                    1.032599e-71
+Random_Transpose_First-improvement                   7.679215e-72
+                                   Random_Insert_First-improvement
+CW_Exchange_Best-improvement                          4.287406e-22
+CW_Exchange_First-improvement                         1.097653e-07
+CW_Insert_Best-improvement                            2.717717e-03
+CW_Insert_First-improvement                           6.590928e-08
+CW_Transpose_Best-improvement                         1.783303e-76
+CW_Transpose_First-improvement                        1.557933e-76
+Random_Exchange_Best-improvement                      1.084646e-39
+Random_Exchange_First-improvement                     3.835300e-19
+Random_Insert_Best-improvement                        3.272675e-05
+Random_Insert_First-improvement                       1.000000e+00
+Random_Transpose_Best-improvement                     1.412389e-72
+Random_Transpose_First-improvement                    9.821190e-73
+                                   Random_Transpose_Best-improvement
+CW_Exchange_Best-improvement                            5.596831e-71
+CW_Exchange_First-improvement                           4.055592e-72
+CW_Insert_Best-improvement                              5.614004e-73
+CW_Insert_First-improvement                             1.173298e-73
+CW_Transpose_Best-improvement                           4.784579e-58
+CW_Transpose_First-improvement                          7.492065e-58
+Random_Exchange_Best-improvement                        4.053733e-70
+Random_Exchange_First-improvement                       2.388363e-71
+Random_Insert_Best-improvement                          1.032599e-71
+Random_Insert_First-improvement                         1.412389e-72
+Random_Transpose_Best-improvement                       1.000000e+00
+Random_Transpose_First-improvement                      1.116557e-05
+                                   Random_Transpose_First-improvement
+CW_Exchange_Best-improvement                             4.060527e-71
+CW_Exchange_First-improvement                            2.998314e-72
+CW_Insert_Best-improvement                               3.815477e-73
+CW_Insert_First-improvement                              8.440516e-74
+CW_Transpose_Best-improvement                            2.680480e-58
+CW_Transpose_First-improvement                           4.259890e-58
+Random_Exchange_Best-improvement                         2.616406e-70
+Random_Exchange_First-improvement                        1.601402e-71
+Random_Insert_Best-improvement                           7.679215e-72
+Random_Insert_First-improvement                          9.821190e-73
+Random_Transpose_Best-improvement                        1.116557e-05
+Random_Transpose_First-improvement                       1.000000e+00
+
+=== Pairwise Wilcoxon signed-rank test p-values (paired, two-sided) ===
+                                   CW_Exchange_Best-improvement
+CW_Exchange_Best-improvement                       1.000000e+00
+CW_Exchange_First-improvement                      2.742415e-13
+CW_Insert_Best-improvement                         2.511526e-14
+CW_Insert_First-improvement                        2.612518e-14
+CW_Transpose_Best-improvement                      2.511764e-14
+CW_Transpose_First-improvement                     2.511764e-14
+Random_Exchange_Best-improvement                   8.539357e-12
+Random_Exchange_First-improvement                  2.581337e-02
+Random_Insert_Best-improvement                     3.373691e-12
+Random_Insert_First-improvement                    5.932023e-14
+Random_Transpose_Best-improvement                  2.511764e-14
+Random_Transpose_First-improvement                 2.511764e-14
+                                   CW_Exchange_First-improvement
+CW_Exchange_Best-improvement                        2.742415e-13
+CW_Exchange_First-improvement                       1.000000e+00
+CW_Insert_Best-improvement                          3.438376e-13
+CW_Insert_First-improvement                         8.731469e-14
+CW_Transpose_Best-improvement                       2.511764e-14
+CW_Transpose_First-improvement                      2.511764e-14
+Random_Exchange_Best-improvement                    2.511764e-14
+Random_Exchange_First-improvement                   8.060325e-10
+Random_Insert_Best-improvement                      2.909165e-01
+Random_Insert_First-improvement                     8.010916e-08
+Random_Transpose_Best-improvement                   2.511764e-14
+Random_Transpose_First-improvement                  2.511764e-14
+                                   CW_Insert_Best-improvement
+CW_Exchange_Best-improvement                     2.511526e-14
+CW_Exchange_First-improvement                    3.438376e-13
+CW_Insert_Best-improvement                       1.000000e+00
+CW_Insert_First-improvement                      1.665839e-04
+CW_Transpose_Best-improvement                    2.511764e-14
+CW_Transpose_First-improvement                   2.511764e-14
+Random_Exchange_Best-improvement                 2.511764e-14
+Random_Exchange_First-improvement                3.056827e-14
+Random_Insert_Best-improvement                   9.158487e-10
+Random_Insert_First-improvement                  1.953219e-03
+Random_Transpose_Best-improvement                2.511764e-14
+Random_Transpose_First-improvement               2.511764e-14
+                                   CW_Insert_First-improvement
+CW_Exchange_Best-improvement                      2.612518e-14
+CW_Exchange_First-improvement                     8.731469e-14
+CW_Insert_Best-improvement                        1.665839e-04
+CW_Insert_First-improvement                       1.000000e+00
+CW_Transpose_Best-improvement                     2.511764e-14
+CW_Transpose_First-improvement                    2.511764e-14
+Random_Exchange_Best-improvement                  2.511764e-14
+Random_Exchange_First-improvement                 3.306058e-14
+Random_Insert_Best-improvement                    5.986611e-12
+Random_Insert_First-improvement                   3.170668e-07
+Random_Transpose_Best-improvement                 2.511764e-14
+Random_Transpose_First-improvement                2.511764e-14
+                                   CW_Transpose_Best-improvement
+CW_Exchange_Best-improvement                        2.511764e-14
+CW_Exchange_First-improvement                       2.511764e-14
+CW_Insert_Best-improvement                          2.511764e-14
+CW_Insert_First-improvement                         2.511764e-14
+CW_Transpose_Best-improvement                       1.000000e+00
+CW_Transpose_First-improvement                      1.458413e-07
+Random_Exchange_Best-improvement                    2.511764e-14
+Random_Exchange_First-improvement                   2.511764e-14
+Random_Insert_Best-improvement                      2.511764e-14
+Random_Insert_First-improvement                     2.511764e-14
+Random_Transpose_Best-improvement                   2.511764e-14
+Random_Transpose_First-improvement                  2.511764e-14
+                                   CW_Transpose_First-improvement
+CW_Exchange_Best-improvement                         2.511764e-14
+CW_Exchange_First-improvement                        2.511764e-14
+CW_Insert_Best-improvement                           2.511764e-14
+CW_Insert_First-improvement                          2.511764e-14
+CW_Transpose_Best-improvement                        1.458413e-07
+CW_Transpose_First-improvement                       1.000000e+00
+Random_Exchange_Best-improvement                     2.511764e-14
+Random_Exchange_First-improvement                    2.511764e-14
+Random_Insert_Best-improvement                       2.511764e-14
+Random_Insert_First-improvement                      2.511764e-14
+Random_Transpose_Best-improvement                    2.511764e-14
+Random_Transpose_First-improvement                   2.511764e-14
+                                   Random_Exchange_Best-improvement
+CW_Exchange_Best-improvement                           8.539357e-12
+CW_Exchange_First-improvement                          2.511764e-14
+CW_Insert_Best-improvement                             2.511764e-14
+CW_Insert_First-improvement                            2.511764e-14
+CW_Transpose_Best-improvement                          2.511764e-14
+CW_Transpose_First-improvement                         2.511764e-14
+Random_Exchange_Best-improvement                       1.000000e+00
+Random_Exchange_First-improvement                      2.103983e-13
+Random_Insert_Best-improvement                         2.826097e-14
+Random_Insert_First-improvement                        2.511764e-14
+Random_Transpose_Best-improvement                      2.511764e-14
+Random_Transpose_First-improvement                     2.511764e-14
+                                   Random_Exchange_First-improvement
+CW_Exchange_Best-improvement                            2.581337e-02
+CW_Exchange_First-improvement                           8.060325e-10
+CW_Insert_Best-improvement                              3.056827e-14
+CW_Insert_First-improvement                             3.306058e-14
+CW_Transpose_Best-improvement                           2.511764e-14
+CW_Transpose_First-improvement                          2.511764e-14
+Random_Exchange_Best-improvement                        2.103983e-13
+Random_Exchange_First-improvement                       1.000000e+00
+Random_Insert_Best-improvement                          2.197769e-10
+Random_Insert_First-improvement                         4.148594e-13
+Random_Transpose_Best-improvement                       2.511764e-14
+Random_Transpose_First-improvement                      2.511764e-14
+                                   Random_Insert_Best-improvement
+CW_Exchange_Best-improvement                         3.373691e-12
+CW_Exchange_First-improvement                        2.909165e-01
+CW_Insert_Best-improvement                           9.158487e-10
+CW_Insert_First-improvement                          5.986611e-12
+CW_Transpose_Best-improvement                        2.511764e-14
+CW_Transpose_First-improvement                       2.511764e-14
+Random_Exchange_Best-improvement                     2.826097e-14
+Random_Exchange_First-improvement                    2.197769e-10
+Random_Insert_Best-improvement                       1.000000e+00
+Random_Insert_First-improvement                      4.761182e-05
+Random_Transpose_Best-improvement                    2.511764e-14
+Random_Transpose_First-improvement                   2.511764e-14
+                                   Random_Insert_First-improvement
+CW_Exchange_Best-improvement                          5.932023e-14
+CW_Exchange_First-improvement                         8.010916e-08
+CW_Insert_Best-improvement                            1.953219e-03
+CW_Insert_First-improvement                           3.170668e-07
+CW_Transpose_Best-improvement                         2.511764e-14
+CW_Transpose_First-improvement                        2.511764e-14
+Random_Exchange_Best-improvement                      2.511764e-14
+Random_Exchange_First-improvement                     4.148594e-13
+Random_Insert_Best-improvement                        4.761182e-05
+Random_Insert_First-improvement                       1.000000e+00
+Random_Transpose_Best-improvement                     2.511764e-14
+Random_Transpose_First-improvement                    2.511764e-14
+                                   Random_Transpose_Best-improvement
+CW_Exchange_Best-improvement                            2.511764e-14
+CW_Exchange_First-improvement                           2.511764e-14
+CW_Insert_Best-improvement                              2.511764e-14
+CW_Insert_First-improvement                             2.511764e-14
+CW_Transpose_Best-improvement                           2.511764e-14
+CW_Transpose_First-improvement                          2.511764e-14
+Random_Exchange_Best-improvement                        2.511764e-14
+Random_Exchange_First-improvement                       2.511764e-14
+Random_Insert_Best-improvement                          2.511764e-14
+Random_Insert_First-improvement                         2.511764e-14
+Random_Transpose_Best-improvement                       1.000000e+00
+Random_Transpose_First-improvement                      4.161591e-07
+                                   Random_Transpose_First-improvement
+CW_Exchange_Best-improvement                             2.511764e-14
+CW_Exchange_First-improvement                            2.511764e-14
+CW_Insert_Best-improvement                               2.511764e-14
+CW_Insert_First-improvement                              2.511764e-14
+CW_Transpose_Best-improvement                            2.511764e-14
+CW_Transpose_First-improvement                           2.511764e-14
+Random_Exchange_Best-improvement                         2.511764e-14
+Random_Exchange_First-improvement                        2.511764e-14
+Random_Insert_Best-improvement                           2.511764e-14
+Random_Insert_First-improvement                          2.511764e-14
+Random_Transpose_Best-improvement                        4.161591e-07
+Random_Transpose_First-improvement                       1.000000e+00
+
+(p < 0.05 indicates a statistically significant difference at the 5% level)
+
+=== Pairs with significant difference (Wilcoxon, p < 0.05 ) ===
+  CW_Exchange_Best-improvement             vs CW_Exchange_First-improvement             p=0  (better: CW_Exchange_First-improvement)
+  CW_Exchange_Best-improvement             vs CW_Insert_Best-improvement                p=0  (better: CW_Insert_Best-improvement)
+  CW_Exchange_Best-improvement             vs CW_Insert_First-improvement               p=0  (better: CW_Insert_First-improvement)
+  CW_Exchange_Best-improvement             vs CW_Transpose_Best-improvement             p=0  (better: CW_Exchange_Best-improvement)
+  CW_Exchange_Best-improvement             vs CW_Transpose_First-improvement            p=0  (better: CW_Exchange_Best-improvement)
+  CW_Exchange_Best-improvement             vs Random_Exchange_Best-improvement          p=0  (better: CW_Exchange_Best-improvement)
+  CW_Exchange_Best-improvement             vs Random_Exchange_First-improvement         p=0  (better: Random_Exchange_First-improvement)
+  CW_Exchange_Best-improvement             vs Random_Insert_Best-improvement            p=0  (better: Random_Insert_Best-improvement)
+  CW_Exchange_Best-improvement             vs Random_Insert_First-improvement           p=0  (better: Random_Insert_First-improvement)
+  CW_Exchange_Best-improvement             vs Random_Transpose_Best-improvement         p=0  (better: CW_Exchange_Best-improvement)
+  CW_Exchange_Best-improvement             vs Random_Transpose_First-improvement        p=0  (better: CW_Exchange_Best-improvement)
+  CW_Exchange_First-improvement            vs CW_Insert_Best-improvement                p=0  (better: CW_Insert_Best-improvement)
+  CW_Exchange_First-improvement            vs CW_Insert_First-improvement               p=0  (better: CW_Insert_First-improvement)
+  CW_Exchange_First-improvement            vs CW_Transpose_Best-improvement             p=0  (better: CW_Exchange_First-improvement)
+  CW_Exchange_First-improvement            vs CW_Transpose_First-improvement            p=0  (better: CW_Exchange_First-improvement)
+  CW_Exchange_First-improvement            vs Random_Exchange_Best-improvement          p=0  (better: CW_Exchange_First-improvement)
+  CW_Exchange_First-improvement            vs Random_Exchange_First-improvement         p=0  (better: CW_Exchange_First-improvement)
+  CW_Exchange_First-improvement            vs Random_Insert_First-improvement           p=0  (better: Random_Insert_First-improvement)
+  CW_Exchange_First-improvement            vs Random_Transpose_Best-improvement         p=0  (better: CW_Exchange_First-improvement)
+  CW_Exchange_First-improvement            vs Random_Transpose_First-improvement        p=0  (better: CW_Exchange_First-improvement)
+  CW_Insert_Best-improvement               vs CW_Insert_First-improvement               p=0  (better: CW_Insert_First-improvement)
+  CW_Insert_Best-improvement               vs CW_Transpose_Best-improvement             p=0  (better: CW_Insert_Best-improvement)
+  CW_Insert_Best-improvement               vs CW_Transpose_First-improvement            p=0  (better: CW_Insert_Best-improvement)
+  CW_Insert_Best-improvement               vs Random_Exchange_Best-improvement          p=0  (better: CW_Insert_Best-improvement)
+  CW_Insert_Best-improvement               vs Random_Exchange_First-improvement         p=0  (better: CW_Insert_Best-improvement)
+  CW_Insert_Best-improvement               vs Random_Insert_Best-improvement            p=0  (better: CW_Insert_Best-improvement)
+  CW_Insert_Best-improvement               vs Random_Insert_First-improvement           p=0  (better: CW_Insert_Best-improvement)
+  CW_Insert_Best-improvement               vs Random_Transpose_Best-improvement         p=0  (better: CW_Insert_Best-improvement)
+  CW_Insert_Best-improvement               vs Random_Transpose_First-improvement        p=0  (better: CW_Insert_Best-improvement)
+  CW_Insert_First-improvement              vs CW_Transpose_Best-improvement             p=0  (better: CW_Insert_First-improvement)
+  CW_Insert_First-improvement              vs CW_Transpose_First-improvement            p=0  (better: CW_Insert_First-improvement)
+  CW_Insert_First-improvement              vs Random_Exchange_Best-improvement          p=0  (better: CW_Insert_First-improvement)
+  CW_Insert_First-improvement              vs Random_Exchange_First-improvement         p=0  (better: CW_Insert_First-improvement)
+  CW_Insert_First-improvement              vs Random_Insert_Best-improvement            p=0  (better: CW_Insert_First-improvement)
+  CW_Insert_First-improvement              vs Random_Insert_First-improvement           p=0  (better: CW_Insert_First-improvement)
+  CW_Insert_First-improvement              vs Random_Transpose_Best-improvement         p=0  (better: CW_Insert_First-improvement)
+  CW_Insert_First-improvement              vs Random_Transpose_First-improvement        p=0  (better: CW_Insert_First-improvement)
+  CW_Transpose_Best-improvement            vs CW_Transpose_First-improvement            p=0  (better: CW_Transpose_Best-improvement)
+  CW_Transpose_Best-improvement            vs Random_Exchange_Best-improvement          p=0  (better: Random_Exchange_Best-improvement)
+  CW_Transpose_Best-improvement            vs Random_Exchange_First-improvement         p=0  (better: Random_Exchange_First-improvement)
+  CW_Transpose_Best-improvement            vs Random_Insert_Best-improvement            p=0  (better: Random_Insert_Best-improvement)
+  CW_Transpose_Best-improvement            vs Random_Insert_First-improvement           p=0  (better: Random_Insert_First-improvement)
+  CW_Transpose_Best-improvement            vs Random_Transpose_Best-improvement         p=0  (better: CW_Transpose_Best-improvement)
+  CW_Transpose_Best-improvement            vs Random_Transpose_First-improvement        p=0  (better: CW_Transpose_Best-improvement)
+  CW_Transpose_First-improvement           vs Random_Exchange_Best-improvement          p=0  (better: Random_Exchange_Best-improvement)
+  CW_Transpose_First-improvement           vs Random_Exchange_First-improvement         p=0  (better: Random_Exchange_First-improvement)
+  CW_Transpose_First-improvement           vs Random_Insert_Best-improvement            p=0  (better: Random_Insert_Best-improvement)
+  CW_Transpose_First-improvement           vs Random_Insert_First-improvement           p=0  (better: Random_Insert_First-improvement)
+  CW_Transpose_First-improvement           vs Random_Transpose_Best-improvement         p=0  (better: CW_Transpose_First-improvement)
+  CW_Transpose_First-improvement           vs Random_Transpose_First-improvement        p=0  (better: CW_Transpose_First-improvement)
+  Random_Exchange_Best-improvement         vs Random_Exchange_First-improvement         p=0  (better: Random_Exchange_First-improvement)
+  Random_Exchange_Best-improvement         vs Random_Insert_Best-improvement            p=0  (better: Random_Insert_Best-improvement)
+  Random_Exchange_Best-improvement         vs Random_Insert_First-improvement           p=0  (better: Random_Insert_First-improvement)
+  Random_Exchange_Best-improvement         vs Random_Transpose_Best-improvement         p=0  (better: Random_Exchange_Best-improvement)
+  Random_Exchange_Best-improvement         vs Random_Transpose_First-improvement        p=0  (better: Random_Exchange_Best-improvement)
+  Random_Exchange_First-improvement        vs Random_Insert_Best-improvement            p=0  (better: Random_Insert_Best-improvement)
+  Random_Exchange_First-improvement        vs Random_Insert_First-improvement           p=0  (better: Random_Insert_First-improvement)
+  Random_Exchange_First-improvement        vs Random_Transpose_Best-improvement         p=0  (better: Random_Exchange_First-improvement)
+  Random_Exchange_First-improvement        vs Random_Transpose_First-improvement        p=0  (better: Random_Exchange_First-improvement)
+  Random_Insert_Best-improvement           vs Random_Insert_First-improvement           p=0  (better: Random_Insert_First-improvement)
+  Random_Insert_Best-improvement           vs Random_Transpose_Best-improvement         p=0  (better: Random_Insert_Best-improvement)
+  Random_Insert_Best-improvement           vs Random_Transpose_First-improvement        p=0  (better: Random_Insert_Best-improvement)
+  Random_Insert_First-improvement          vs Random_Transpose_Best-improvement         p=0  (better: Random_Insert_First-improvement)
+  Random_Insert_First-improvement          vs Random_Transpose_First-improvement        p=0  (better: Random_Insert_First-improvement)
+  Random_Transpose_Best-improvement        vs Random_Transpose_First-improvement        p=0  (better: Random_Transpose_Best-improvement)
+
+Boxplot saved to deviation_boxplot_1.pdf
+> 
